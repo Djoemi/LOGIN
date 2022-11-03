@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+button {background-color: darkslategray;
+    width: 100%;
+    color: antiquewhite;
+    padding: 15px;
+    margin: 10px 30px;
+    border: none;
+}
+
+span:after{
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    padding-right: 50px;
+}
+span:before{
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    padding-left: 50px;
+}
+
+form {
+    border: 3px sloid black;
+    width: 400px;
+}
+
+input[type=text], input[type=password] {
+    width: 90%;
+    margin: 8px 30px;
+    padding: 10px 20px;
+}
+button:hover {
+    opacity:0.7;
+}
+.face {
+    background-color: blue;
+}
+.link {
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+         
+}
+.fa-brands{
+    
+    justify-items: self-start;
+}
+div{
+    margin: auto;
+    width: 500px;
+    border: 1px solid black;
+    padding-left: 25px;
+}
+
+</style>
+</head>
+<body>
+    <div>
+
+        <h1>Log In</h1>
+        <form>
+            <p>Get to the best community of businesses and talents</p>
+            <input type="text" placeholder="Email address"><br><br>
+            
+            <input type="text" placeholder="Password"><br><br>
+            <button type="submit">LOG IN</button>
+            <span>OR</span>
+            <button type="submit" class="face"><i class="fa-brands fa-square-facebook"></i>Facebook</button>
+            <button type="submit" class="link"><i class="fa-brands fa-linkedin"></i>Linkedin</button>
+        </form>
+    </div>
+</body>
+</html>
